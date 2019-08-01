@@ -1,0 +1,65 @@
+[
+  { "id"          : 1,
+    "name"        : "User 1",
+    "favourites"  : [
+        { "title" : "Favorito 1",
+          "url"   : "url1"
+        },
+        { "title" : "Favorito 2",
+          "url"   : "url2"
+        }, {
+          "title" : "Favorito 3",
+          "url"   : "url3"
+        }, {
+          "title" : "Favorito 4",
+          "url"   : "url4"
+        }, {
+          "title" : "Favorito 5",
+          "url"   : "url5"
+        }
+      ]
+  },
+  {
+    "id"        : 2,
+    "name"      : "User 2",
+    "favourites": [
+      {
+        "title" : "Favorito 6",
+        "url"   : "url1"
+      }, {
+        "title" : "Favorito 7",
+        "url"   : "url2"
+      }, {
+        "title" : "Favorito 8",
+        "url"   : "url3"
+      }, {
+        "title" : "Favorito 9",
+        "url"   : "url4"
+      }, {
+        "title" : "Favorito 10",
+        "url"   : "url5"
+      }
+
+    ]
+  },
+  {
+    "id"          : 3,
+    "name"        : "User 3",
+    "favourites"  :[{
+        "title" : "Favorito 11",
+        "url"   : "url1"
+      }, {
+        "title" : "Favorito 12",
+        "url"   : "url2"
+      }, {
+        "title" : "Favorito 13",
+        "url"   : "url3"
+      }, {
+        "title" : "Favorito 14",
+        "url"   : "url4"
+      }, {
+        "title" : "Favorito 15",
+        "url"   : "url5"
+      }]
+  }
+]
