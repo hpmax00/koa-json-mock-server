@@ -96,7 +96,7 @@ app.listen(3000);
 ####POST
 
 * http://localhost:3000/users/      
-* http://localhost:3000/users/
+* http://localhost:3000/users/  
 json: { id: 1 }
 
 Post method save only in memory
