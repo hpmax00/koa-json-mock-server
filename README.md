@@ -1,3 +1,6 @@
+[![npm version](https://badge.fury.io/js/koa-json-mock-server.svg)](https://badge.fury.io/js/koa-json-mock-server)
+![npm](https://img.shields.io/npm/dy/koa-json-mock-server)
+
 Example of: https://www.npmjs.com/package/koa-json-mock-server
 
 
