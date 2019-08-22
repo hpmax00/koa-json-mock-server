@@ -1,4 +1,4 @@
-Example of: https://www.npmjs.com/package/koa-json-server
+Example of: https://www.npmjs.com/package/koa-json-mock-server
 
 
 ## To install

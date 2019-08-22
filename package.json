@@ -1,6 +1,6 @@
 {
   "name": "koa-json-mock-server",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,5 +12,6 @@
     "koa": "^1.0.0",
     "recursive-readdir-filter": "0.0.3"
   },
-  "description": ""
+  "description": "",
+  "homepage": "https://github.com/hpmax00/koa-json-mock-server"
 }
