@@ -65,7 +65,7 @@ Example of: https://www.npmjs.com/package/koa-json-mock-server
 //server.js
 var koa = require('koa');
 var Router = require('koa-router');
-var jsonServer = require('koa-json-server');
+var jsonServer = require('koa-json-mock-server');
 var jsonBody = require('koa-json-body');
 
 const app = new koa()
