@@ -7,18 +7,26 @@ module.exports = function(path){
     database = d;
   });
 
-  return function *(next){
-    var path = this.request.path;
-    var query = this.request.query;
-
+  return async function(ctx, next){
+    const path = ctx.request.path;
+    const query = ctx.request.query;
+    const body = ctx.request.query;
     try{
-      if (this.method == 'GET'){
-        this.response.body = database.get(path, query);
-      }else if (this.method == 'POST'){
-        this.response.body = database.get(path, this.request.body);
+      let response
+      if (ctx.request.method == 'GET'){
+        response = database.get(path, query);
+      }else if (ctx.request.method == 'POST'){
+        response = database.get(path, body);
+      }
+      
+      if (!ctx.response.body) {
+        await next()
+      } else {
+        ctx.request.body = response
       }
     }catch(e){
-      yield next;
+      console.log("error:", e)
+      await next();
     }
   };
 }
