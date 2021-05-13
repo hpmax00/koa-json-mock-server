@@ -19,10 +19,10 @@ module.exports = function(path){
         response = database.get(path, body);
       }
       
-      if (!ctx.response.body) {
+      if (!response) {
         await next()
       } else {
-        ctx.request.body = response
+        ctx.response.body = response
       }
     }catch(e){
       console.log("error:", e)
