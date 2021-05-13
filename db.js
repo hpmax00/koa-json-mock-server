@@ -39,7 +39,7 @@ db.get = function(url, query){
     return result
   }
 
-  return collection.filter(filter)
+  return Array.isArray(collection) ? collection.filter(filter) : collection
 }
 
 // db.post = (url, body) => {
